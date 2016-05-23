@@ -1,0 +1,36 @@
+<%= form_for(@tender, :html => { :multipart => true}) do |f| %>
+  <% if @tender.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tender.errors.count, "error") %> prohibited this tender from being saved:</h2>
+
+      <ul>
+      <% @tender.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="container-fluid">
+
+  <div class="form-group">
+    <%= f.label :tender_details %><br>
+    <%= f.text_area :tender_details, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :tender_publish_date %><br>
+    <%= f.date_select :tender_publish_date, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :tender_due_date %><br>
+    <%= f.date_select :tender_due_date, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :document %><br>
+    <%= f.file_field :document, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.submit class: "btn btn-success" %>
+  </div>
+</div>
+<% end %>

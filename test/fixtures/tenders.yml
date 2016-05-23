@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tender_details: MyText
+  tender_publish_date: 2016-05-23
+  tender_due_date: 2016-05-23
+
+two:
+  tender_details: MyText
+  tender_publish_date: 2016-05-23
+  tender_due_date: 2016-05-23

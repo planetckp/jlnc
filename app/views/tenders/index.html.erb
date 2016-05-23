@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<div class="container-fluid">
+<h1>Listing Tenders</h1>
+
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Tender Details</th>
+      <th>Tender Publish Date</th>
+      <th>Tender Due Date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+</div>
+
+  <tbody>
+    <% @tenders.each do |tender| %>
+      <tr>
+        <td><%= tender.tender_details %></td>
+        <td><%= tender.tender_publish_date %></td>
+        <td><%= tender.tender_due_date %></td>
+        <td><%= link_to 'Show', tender %></td>
+        
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+

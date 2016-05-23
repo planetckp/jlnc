@@ -1,0 +1,116 @@
+@import "bootstrap";
+
+ body {
+    padding-top: 50px;
+
+  }
+
+  .jumbotron {
+padding-left: 20px;
+padding-top: 300px;
+background-image: url(bigcity.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+cursor: default;
+
+margin: auto;
+height: 550px;
+}
+
+
+
+.headerline {
+background-color: rgb(255, 255, 255);
+    color: rgb(46, 46, 46);
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 60px;
+    margin-top: 0;
+    opacity: 0.8;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-align: center;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), 0 -5px 35px rgba(255, 255, 255, 0.298);
+    text-transform: none;
+    word-spacing: 0;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+    text-align: inherit !important;
+
+}
+
+.headerline {
+    display: inline-block !important;
+}
+
+.headerline2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-top: 11px;
+    opacity: 0.9;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    text-align: center;
+    text-shadow: none;
+}
+
+.headerline2 {
+    display: inline-block !important;
+}
+
+.headerline3 {
+    color: rgb(0, 0, 0);
+    line-height: 16px;
+    margin-top: 18px;
+    text-align: center;
+    text-transform: none;
+}
+
+.headerline3 {
+    display: inline-block !important;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #56445D;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.btn:visited { 
+color: #FFF
+}
+
