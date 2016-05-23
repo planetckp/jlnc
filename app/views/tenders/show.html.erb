@@ -17,7 +17,7 @@
   <%= @tender.tender_due_date %>
 </p>
 
-<p><strong><%= link_to "View Tender Paper", @tender.document.url, target: "_blank" %></strong><p>
+<p><strong><%= link_to "View Tender Paper", @tender.document.url, target: "application/pdf" %></strong><p>
 
 
 <%= link_to 'Back', tenders_path %>
