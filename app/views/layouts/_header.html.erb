@@ -19,7 +19,14 @@
         <li><%= link_to "Home", pages_home_path %></li> <span class="sr-only">(current)</span></a></li>
         <li><%= link_to "Contact", pages_contact_path %></li>
 
+        <% if user_signed_in? %>
+
         
+        <li><%= link_to "Sign_Out", destroy_user_session_path, method: :delete %></li> 
+        <% else %>   
+        <li><%= link_to "Sign_In", new_user_session_path %></li>
+        <% end %>
+
 
         </ul>
        </ul>
