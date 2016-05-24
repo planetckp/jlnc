@@ -18,6 +18,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'devise', '~> 4.1'
 gem 'kaminari'
 gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 
 group :production do
 gem 'pg', '~> 0.18.4' 
