@@ -3,6 +3,12 @@ Rails.application.routes.draw do
   resources :tenders
   get 'pages/home'
 
+  get 'pages/academics'
+
+  get 'pages/ug'
+
+  get 'pages/pg'
+
   get 'pages/contact'
   
   root 'pages#home'
