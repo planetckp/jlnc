@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'pages/pg'
 
+  get 'pages/vocational'
+
   get 'pages/contact'
   
   root 'pages#home'

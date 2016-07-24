@@ -8,7 +8,10 @@ class PagesController < ApplicationController
   def ug
   end
 
-  def ug
+  def pg
+  end
+
+  def vocational
   end
 
   def contact
